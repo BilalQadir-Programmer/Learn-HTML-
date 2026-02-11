@@ -26,3 +26,9 @@
 .navbar .nav-link:hover{
     color: rgba(52, 211, 153, 1) !important;
 }
+
+ /* animationimage */
+.carousel-inner .animationimage{
+    height: 400px;
+    cursor: pointer;
+}
