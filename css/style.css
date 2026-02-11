@@ -12,6 +12,7 @@
 }
 .navbar{
     background-color: rgba(15, 23, 42, 0.95);
+    border-bottom: 5px solid #003893;
 }
 .navbar .nav-link{
     color: rgba(248, 250, 252, 0.8) !important;
@@ -31,4 +32,55 @@
 .carousel-inner .animationimage{
     height: 400px;
     cursor: pointer;
+}
+
+/* SearchBox */
+
+.SearchBox{
+    background-color: #0F172A;
+    color: #34D399;
+    /* height: 70px; */
+}
+#Search{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    max-width: 450px;
+    margin-top: 10px;
+    height: 50px;
+    outline: none;
+    color: rgba(52, 211, 153, 1);
+}
+#Search:focus{
+    box-shadow: 0 0 8px #00ead3;
+}
+.Search-icon{
+    margin-left: -45px;
+}
+.text-animations::before{
+    content: "HTML Course";
+    animation: change-text 10s infinite;
+}
+@keyframes change-text{
+     0% { opacity: 1; content: "HTML Course"; }
+     5% { opacity: 0; }
+    10% { opacity: 1; content: "HTML Basic"; }
+    15% { opacity: 0; }
+    20% { opacity: 1; content: "HTML Elements"; }
+    25% { opacity: 0; }
+    30% { opacity: 1; content: "HTML Attributes"; }
+    35% { opacity: 0; }
+    40% { opacity: 1; content: "HTML Headings"; }
+    45% { opacity: 0; }
+    50% { opacity: 1; content: "HTML Page Titile"; }
+    55% { opacity: 0; }
+    60% { opacity: 1; content: "HTML List"; }
+    65% { opacity: 0; }
+    70% { opacity: 1; content: "HTML Div"; }
+    75% { opacity: 0; }
+    80% { opacity: 1; content: "HTML Button"; }
+    85% { opacity: 0; }
+    90% { opacity: 1; content: "HTML Tables"; }
+    95% { opacity: 0; }
+    100% { opacity: 1; content: "HTML iframes";}
 }
