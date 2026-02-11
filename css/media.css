@@ -1,0 +1,6 @@
+@media (max-width:768px){
+    /* navbar */
+    .navbar-brand b{
+        font-size: 22px;
+    }
+}

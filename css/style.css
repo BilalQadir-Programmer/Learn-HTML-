@@ -1,0 +1,28 @@
+ /* navbar */
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: -9px;
+}
+.navbar-brand b{
+    font-size: 32px;
+    color: rgba(52, 211, 153, 1) !important;
+}
+.navbar{
+    background-color: rgba(15, 23, 42, 0.95);
+}
+.navbar .nav-link{
+    color: rgba(248, 250, 252, 0.8) !important;
+    transition: 2s;
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: 700px;
+}
+.navbar .active{
+ color: rgba(52, 211, 153, 1) !important;
+}
+.navbar .nav-link:hover{
+    color: rgba(52, 211, 153, 1) !important;
+}
