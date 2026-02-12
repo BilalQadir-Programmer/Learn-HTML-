@@ -160,7 +160,7 @@
   color: #00F2FF;
   
 }
-
+/*Button section*/
 button {
   font-family: inherit;
   font-size: 20px;
@@ -319,4 +319,30 @@ button:active {
 .btn-bg-c{
     background-color: #020d20;
     border-top: 1px solid #00D4FF;
+}
+
+/*code section*/
+.code-fake{
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+}
+.code-fake-h3{
+  font-size: 35px;
+  text-align: center;
+  color:#00D4FF;
+}
+.code-fake-res{
+  display: flex;
+  justify-content: center;
+  color: black;
+
+}
+.code-fake-h1{
+  text-align: center;
+  color: black;
+}
+.col-bg-fake{
+  height: 200px;
+  background-color: white;
 }
