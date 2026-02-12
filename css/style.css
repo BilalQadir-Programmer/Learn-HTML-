@@ -346,3 +346,30 @@ button:active {
   height: 200px;
   background-color: white;
 }
+
+/*student Progress-*/
+.card{
+  background-color: transparent;
+  border: 1px solid #00D4FF;
+  border-radius: 30px;
+
+}
+.card-text{
+  font-size: 20px;
+  text-align: center;
+}
+.card-body > ul >li{
+  list-style-type: none;
+}
+.card-name{
+  color: #E5E7EB;
+}
+.card-age{
+  color: #9CA3AF;
+}
+.card-html{
+  color: #22D3EE;
+}
+.card img{
+  height: 200px;
+}
