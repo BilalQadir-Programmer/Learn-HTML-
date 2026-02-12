@@ -11,4 +11,8 @@
         background-color: #0F172A;
         margin-bottom: 10px;
     }
+    /*hero section*/
+    .col--2 > ul > li > a{
+        font-size: 21px;
+    }
 }
