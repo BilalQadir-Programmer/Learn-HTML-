@@ -17,3 +17,19 @@ function searchlist(){
    }
   })
 }
+
+//Code Editor
+
+let output = document.querySelector("#output");
+let html = document.querySelector(".code-html-left textarea");
+let css = document.querySelector(".code-css-left textarea");
+
+function runcode(){
+  let htmlcode = html.value;
+  let csscode = "<style>" + css.value + "</style>"
+  output.contentDocument.body.innerHTML = htmlcode + csscode;
+
+}
+
+html.addEventListener("keyup", runcode)
+css.addEventListener("keyup", runcode)
