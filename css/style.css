@@ -464,3 +464,67 @@ button:active {
   height: 100%;
   background-color: rgb(69, 243, 255);
 }
+/*footer*/
+
+.footer-bg{
+  /* background-color: transparent; */
+  height: 300px;
+}
+.footer-title{
+  font-size: 59px;
+  padding: 20px;
+}
+.button-footer{
+  border-radius: 10px;
+  outline: none;
+  width: 120px;
+  height: 60px;
+  background-color: #00fffb;
+  color: black;
+  margin-left: 30px;
+  transition: 1s;
+}
+.button-footer:hover{
+  background-color: black;
+  color: #00fffb;
+}
+.footer-rightside{
+  margin-top: 20px;
+  background-color: #0f1729;
+  border: none;
+}
+.footer-rightside h5{
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+}
+.footer-rightside ol li{
+  list-style-type: none;
+}
+.footer-rightside ol li a{
+  text-decoration: none;
+  color: #00D4FF;
+  font-size: 20px;
+}
+.footer-rightside ol li a:hover{
+  color: #00fffb;
+
+}
+.c-m{
+    background-color: #0f1729;
+}
+.d-r{
+  border: none;
+}
+body::-webkit-scrollbar{
+  width:4px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background:black;
+  border-radius:10px;
+}
+
+body::-webkit-scrollbar-track{
+  background:white;
+}
