@@ -23,6 +23,11 @@
     .detilas h2{
      font-size: 25px;
     }    
+     .c-m{
+        margin-top: 160px;
+    }
+   
+  
 }
 
 
@@ -30,4 +35,12 @@
     .video{
         max-width:300px;
     } 
+      
+    .c-m{
+        margin-top: 160px;
+    }
+     .footer-bg{
+        height: 910px;
+    }
+  
 }
