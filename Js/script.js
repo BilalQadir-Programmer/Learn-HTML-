@@ -33,3 +33,11 @@ function runcode(){
 
 html.addEventListener("keyup", runcode)
 css.addEventListener("keyup", runcode)
+
+
+//try it yourself
+
+const codebtn1 = document.querySelector(".code-btn-1");
+codebtn1.addEventListener("click", () => {
+ document.getElementById("try-here-code").scrollIntoView();
+})
