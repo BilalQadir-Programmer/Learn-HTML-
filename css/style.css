@@ -528,3 +528,54 @@ body::-webkit-scrollbar-thumb{
 body::-webkit-scrollbar-track{
   background:white;
 }
+body{
+  background-color: #0f172a;
+}
+
+
+.content-hero-section .content-section{
+  width: 100%;
+  background-color: transparent;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: white;
+  height: 500px;
+ padding: 20px;
+}
+.code-box1{
+  width: 100%;
+  border-left: 3px solid #00D4FF;
+}
+.code-btn-1{
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #00fffb;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.5s;
+
+}
+.code-btn-1:hover{
+  color: #00fffb;
+   background-color: black;
+
+}
+.code-btn-2{
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: #00fffb;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.5s;
+
+}
+.code-btn-2:hover{
+  color: #00fffb;
+   background-color: black;
+
+}
