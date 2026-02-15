@@ -1,0 +1,475 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Learn HTML | Tutorials</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/media.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        
+    </head>
+    <body>
+ <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <div class="container">
+      <div class="navbar-brand">
+        <img src="../image/logo.png" alt="logo" class="logo">
+        <b>Learn HTML</b>
+
+        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link"> Home</a>
+          </li>
+           <li class="nav-item">
+            <a href="Tutorials.html" class="nav-link active"> Tutorials</a>
+          </li>
+           <li class="nav-item">
+            <a href="#" class="nav-link"> Practice</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Contact</a>
+          </li>
+        </ul>
+      </div>
+     </div>
+    </nav>
+    <!-- image animation -->
+     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../image/animation1.png" class="d-block w-100 animationimage alt="animation1.png">
+    </div>
+    <div class="carousel-item">
+      <img src="../image/animation2.png" class="d-block w-100 animationimage alt="animation2.png">
+    </div>
+    <div class="carousel-item">
+      <img src="../image/animation3.png" class="d-block w-100 animationimage alt="animation3.png">
+    </div>
+    <div class="carousel-item">
+      <img src="../image/animation4.png" class="d-block w-100 animationimage alt="animation4.png">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+     </div>
+     <!--Search Box-->
+     <div class="container-fuild SearchBox">
+     <div class="container">
+  <div class="row col-12">
+    <div class="col-sm-12 col-md-6 text-center fs-2 p-2 text-animations">
+    </div>
+    <div class="col-sm-12 col-md-6 text-center mobile-search">
+      <input type="text" id="Search" placeholder="Search Box" onkeyup="searchlist()">
+      <i class="fa-solid fa-magnifying-glass Search-icon"></i>
+    </div>
+</div>
+</div>
+ <!--Hero section-->
+ <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-sm-4 col-md-3 col--2">
+          <h3 class="sidebar-title">HTML Course</h3>
+          <ul id="mylist">
+            <li>
+              <a href="Tutorials.html">HTML HOME</a>
+            </li>
+            <li>
+              <a href="#">HTML Introduction</a>
+            </li>
+            <li>
+              <a href="#">HTML Basic</a>
+            </li>
+            <li>
+              <a href="#">HTML Element</a>
+            </li>
+            <li>
+              <a href="#">HTML Attriutes</a>
+            </li>
+            <li>
+              <a href="#">HTML Headings</a>
+            </li>
+            <li>
+              <a href="#">HTML Paragrapha</a>
+            </li>
+            <li>
+              <a href="#">HTML Style</a>
+            </li>
+            <li>
+              <a href="#">HTML Formattin</a>
+            </li>
+            <li>
+              <a href="#">HTML Quotations</a>
+            </li>
+            <li>
+              <a href="#">HTML Colors</a>
+            </li>
+            <li>
+              <a href="#">HTML Css</a>
+            </li>
+            <li>
+              <a href="#">HTML Links</a>
+            </li>
+            <li>
+              <a href="#">HTML Image</a>
+            </li>
+            <li>
+              <a href="#">HTML Favicon</a>
+            </li>
+            <li>
+              <a href="#">Page Tittle</a>
+            </li>
+            <li>
+              <a href="#">HTML Tables</a>
+            </li>
+            <li>
+              <a href="#">HTML Lists</a>
+            </li>
+            <li>
+              <a href="#">Block & Inline</a>
+            </li>
+            <li>
+              <a href="#">HTML Div</a>
+            </li>
+            <li>
+              <a href="#">HTML Classes</a>
+            </li>
+            <li>
+              <a href="#">HTML Id</a>
+            </li>
+            <li>
+              <a href="#">HTML Buttons</a>
+            </li>
+            <li>
+              <a href="#">HTML Iframes</a>
+            </li>
+            <li>
+              <a href="#">HTML File Paths</a>
+            </li>
+            <li>
+              <a href="#">HTML Head</a>
+            </li>
+            <li>
+              <a href="#">HTML Layout</a>
+            </li>
+            <li>
+              <a href="#">HTML Symbols</a>
+            </li>
+            <li>
+              <a href="#">HTML Emojis</a>
+            </li>
+            <li>
+              <a href="#">HTML URL Encode</a>
+            </li>
+            <li>
+              <a href="#">HTML VS XHTML</a>
+            </li>
+            <h5 class="list-title">HTML FROM</h5>
+             <li>
+              <a href="#">HTML Form</a>
+            </li>
+            <li>
+              <a href="#">Form Attributes</a>
+            </li>
+            <li>
+              <a href="#">Form Elements</a>
+            </li>
+            <li>
+              <a href="#">HTML Input Types</a>
+            </li>
+            <li>
+              <a href="#">HTML Input Attributes</a>
+            </li>
+            <li>
+              <a href="#">Input Form Attributes</a>
+            </li>
+            <h5 class="list-title">HTML Graphics</h5>
+            <li>
+              <a href="#">HTML Canvas</a>
+            </li>
+            <li>
+              <a href="#">HTML SVG</a>
+            </li>
+            <h5 class="list-title">HTML Media</h5>
+            <li>
+              <a href="#">HTML Media</a>
+            </li>
+            <li>
+              <a href="#">HTML Video</a>
+            </li>
+            <li>
+              <a href="#">HTML Audio</a>
+            </li>
+            <li>
+              <a href="#">HTML Plug-ins</a>
+            </li>
+            <li>
+              <a href="#">HTML Youtube</a>
+            </li>
+            <h5 class="list-title">HTML APIS</h5>
+            <li>
+              <a href="#">HTML Web APIS</a>
+            </li>
+            <li>
+              <a href="#">HTML Geolocation</a>
+            </li>
+            <li>
+              <a href="#">HTML Drag & Drop</a>
+            </li>
+            <li>
+              <a href="#">Web Storage</a>
+            </li>
+            <li>
+              <a href="#">Web Workers</a>
+            </li>
+            <li>
+              <a href="#">HTML SSE</a>
+            </li>
+             <h5 class="list-title">HTML Examples</h5>
+             <li>
+              <a href="#">HTML Examples</a>
+            </li>
+            <li>
+              <a href="#">HTML Editor</a>
+            </li>
+            <li>
+              <a href="#">HTML Quiz</a>
+            </li>
+            <li>
+              <a href="#">HTML Exercises</a>
+            </li>
+             <h5 class="list-title">HTML References</h5>
+              <li>
+              <a href="#">HTML Tag List</a>
+            </li>
+             <li>
+              <a href="#">HTML Attributes</a>
+            </li>
+             <li>
+              <a href="#"> HTML Global Attributes</a>
+            </li>
+             <li>
+              <a href="#"> HTML Brower Support</a>
+            </li>
+             <li>
+              <a href="#">HTML Events</a>
+            </li>
+             <li>
+              <a href="#">HTML Colors</a>
+            </li>
+             <li>
+              <a href="#">HTML Canvas</a>
+            </li>
+             <li>
+              <a href="#">HTML Audio & Video</a>
+            </li>
+             <li>
+              <a href="#">HTML Doctypes</a>
+            </li>
+             <li>
+              <a href="#">HTML Character Sets</a>
+            </li>
+             <li>
+              <a href="#">HTML URL Encode</a>
+            </li>
+             <li>
+              <a href="#">HTML Lang Codes</a>
+            </li>
+             <li>
+              <a href="#">HTTP Messages</a>
+            </li>
+             <li>
+              <a href="#">HTML Methods</a>
+            </li>
+             <li>
+              <a href="#">PX to EM Converter</a>
+            </li>
+             <li>
+              <a href="#">keyboard Shortcuts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-8 col-md-9 content-hero-section">
+          <div class="content-section">
+            <h2>Learn HTML</h2>
+            <p>HTML is the standard markup language for Web pages.</p>
+            <p>With HTML you can create your own Website.</p>
+            <p>With HTML you can create your own Website.</p>
+            <h2>Learning by Examples</h2>
+            <p>With our "Try it Yourself" editor, you can edit the HTML code and view the result in the browser:</p>
+            <div class="code-box1">
+              <h2>Example</h2>
+              &lt;!DOCTYPE html&gt;<br/>
+              &lt;html&gt;<br/>
+              &lt;body&gt;<br/><br/>
+              &lt;h1&gt;THis Is Heading &lt;/h1&gt;<br/>
+              &lt;p&gt;THis Is Paragraph &lt;/p&gt;<br/><br/>
+               &lt;/body&gt;<br/>
+              &lt;/html&gt;<br/>
+              <button class="code-btn-1">
+                Try it Yourself
+              </button>
+            </div>
+            <b>Click on the "Try it Yourself" button to see how it works.</b>
+            <br/>
+            <br>
+            <h2>HTML Quiz Test</h2>
+            <p>Test your HTML skills with our HTML Quiz!</p>
+              <button class="code-btn-2">
+              HTML Quiz
+              </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--login and sign section-->
+          <div class="container-fluid btn-bg-c">
+       <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
+            <button class="btn">Login</button> 
+          </div>
+          <div class="col-sm-12 col-md-6 mt-2 btn-2 mt-3 mb-3">
+            <button>
+  <div class="svg-wrapper-1">
+    <div class="svg-wrapper">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24">
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path
+          fill="currentColor"
+          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+          ></path>
+          </svg>
+          </div>
+          </div>
+         <span>Sign Up</span>
+          </button>
+          </div>
+        </div>
+       </div>
+      </div>
+         <!--Code Editor-->
+       <div class="container-fluid mt-3" style="height: 550px; background-color: rgb(69, 243, 255);" id="try-here-code">
+         <div class="row">
+           <div class="leftsidecode col-sm-12 col-md-6">
+            <div class="code-head">
+              <h3>Try It Your Self</h3>
+            </div>
+            <div class="code-html-left">
+              <label>HTML</label>
+              <textarea placeholder="Here HTML code"></textarea>
+            </div>
+            <div class="code-css-left">
+              <label>CSS</label>
+              <textarea placeholder="Here css code"></textarea>
+            </div>
+           </div>
+           <div class="rightsidecode col-sm-12 col-md-6 ">
+             <iframe id="output"> 
+             </iframe>
+           </div>
+         </div>
+       </div>
+       <!--Footer-->
+       <div class="container-fluid footer-bg" >
+         <div class="container c-m">
+          <div class="row d-r">
+             <div class="col-sm-12 col-md-6">
+              <h2 class="footer-title"> Sign Up For New <br/>Update</h2>
+              <button class="button-footer">Sign Up</button>
+             </div>
+             <div class="col-sm-12 col-md-3 footer-rightside">
+                
+              <h5>HTML Basic</h5>
+          <ol>
+              <li>
+              <a href="#">HTML Basic</a>
+            </li>
+            <li>
+              <a href="#">HTML Element</a>
+            </li>
+            <li>
+              <a href="#">HTML Attriutes</a>
+            </li>
+            <li>
+              <a href="#">HTML Headings</a>
+            </li>
+            <li>
+              <a href="#">HTML Paragrapha</a>
+            </li>
+            <li>
+              <a href="#">HTML Tables</a>
+            </li>
+            <li>
+              <a href="#">HTML Lists</a>
+            </li>
+          </ol>
+             </div>
+             <div class="col-sm-12 col-md-3 footer-rightside">
+                <h5>HTML Advance</h5>
+          <ol>
+             <li>
+              <a href="#">HTML Div</a>
+            </li>
+            <li>
+              <a href="#">HTML Classes</a>
+            </li>
+            <li>
+              <a href="#">HTML Id</a>
+            </li>
+            <li>
+              <a href="#">HTML Buttons</a>
+            </li>
+            <li>
+              <a href="#">HTML Iframes</a>
+            </li>
+            <li>
+              <a href="#">HTML Symbols</a>
+            </li>
+            <li>
+              <a href="#">HTML Emojis</a>
+            </li>
+          </ol>
+             </div>
+          </div>
+          </div>
+       </div>
+ </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+     <script src="../js/script.js"></script>
+</html>
