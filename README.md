@@ -1,129 +1,78 @@
-LearnHtml
+<pre>
+# 📘 LearnHtml - Step-by-Step HTML Learning Platform
 
-LearnHtml ek beginner-friendly educational platform hai jo beginners ko HTML step-by-step sikhane ke liye design kiya gaya hai.
+**LearnHtml** is a beginner-friendly educational platform designed to guide newcomers through the world of web development. With over 80 pages of content, it offers a structured and practical approach to mastering HTML.
 
-Is website par learners HTML tutorials, practice tasks, projects, aur real-time code editor ki madad se coding seekh sakte hain.
+**🌐 Live Link:** [https://learnhtml0.netlify.app/](https://learnhtml0.netlify.app/)
 
-Project me 70+ HTML topic pages hain jahan har topic ko alag page par explain kiya gaya hai taake beginners easily samajh saken.
+---
 
-Live Learning Experience
+## 🌟 Overview
+The main goal of LearnHtml is to provide a practical learning experience. Learners can explore HTML tutorials, complete practice tasks, build small projects, and use a **real-time code editor** to see their results instantly.
 
-LearnHtml ka main goal beginners ko practical learning experience dena hai jahan user:
+---
 
-HTML concepts seekh sakta hai
+## 🚀 Key Features
+*   **70+ Detailed Topic Pages:** Each HTML concept is explained on its own dedicated page.
+*   **Live Code Editor:** Write and test HTML code directly in your browser.
+*   **Practice Tasks:** Every topic includes challenges to test your knowledge.
+*   **Hands-on Projects:** Build real components to gain practical experience.
+*   **Firebase Authentication:** Secure Login and Signup system.
+*   **Fully Responsive:** A clean UI built with Bootstrap that works on all devices.
 
-tasks complete kar sakta hai
+---
 
-projects bana sakta hai
+## 🛠️ Tech Stack
+*   **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+*   **Framework:** Bootstrap (for responsive design)
+*   **Backend/Auth:** Firebase Authentication
 
-real-time code editor me code run kar sakta hai
+---
 
-Features
+## 📂 Learning Content
+The curriculum is organized to take you from zero to hero:
+*   Introduction & Basic Elements
+*   Attributes, Headings, and Paragraphs
+*   Links, Images, and Lists
+*   Tables and Complex Forms
+*   And over 70+ additional topics...
 
-Beginner-friendly HTML tutorials
+---
 
-70+ HTML topic pages
+## 💻 Installation & Setup
+To run this project locally, follow these steps:
 
-Practice tasks for every topic
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/BilalQadir247/learnhtml.git](https://github.com/BilalQadir247/learnhtml.git)
 
-Small projects for hands-on learning
+🔮 Future Roadmap
 
-Real-time HTML code editor
+Adding CSS and JavaScript tutorials.
 
-Login & Signup system using Firebase Authentication
+Interactive quizzes for better assessment.
 
-Clean and responsive UI
+User dashboard and progress tracking system.
 
-Structured learning path for beginners
+Completion certificates for learners
 
-Tech Stack
 
-Is project ko develop karne ke liye ye technologies use hui hain:
+🤝 Contributing
+Contributions make the open-source community amazing.
 
-HTML
+Fork the Project.
 
-CSS
+Create your Feature Branch (git checkout -b feature-name).
 
-Bootstrap
+Commit your Changes (git commit -m "Add some feature").
 
-JavaScript
+Push to the Branch (git push origin feature-name).
 
-Firebase Authentication
+Open a Pull Request
 
-How to Run the Project
-
-Project run karne ke steps:
-
-Repository clone karo
-
-git clone https://github.com/BilalQadir247/learnhtml.git
-
-Project folder open karo **Visual Studio Code me
-
-Live Server extension install karo
-
-index.html par right click karo
-
-Open with Live Server
-
-Learning Content
-
-LearnHtml platform me beginners ke liye topics structured format me diye gaye hain:
-
-HTML Introduction
-
-HTML Elements
-
-HTML Attributes
-
-HTML Headings
-
-HTML Paragraphs
-
-HTML Links
-
-HTML Images
-
-HTML Lists
-
-HTML Tables
-
-HTML Forms
-
-aur 70+ topics
-
-Future Improvements
-
-Future updates me ye features add kiye ja sakte hain:
-
-CSS course
-
-JavaScript tutorials
-
-Interactive quizzes
-
-User dashboard
-
-Progress tracking system
-
-Certificate system for learners
-
-Contribution
-
-Agar aap is project me contribute karna chahte hain:
-
-Repository fork karein
-
-New branch create karein
-
-git checkout -b feature-name
-
-Changes commit karein
-
-git commit -m "Added new feature"
-
-Pull request create karein
-
-Author
-
+👤 Author
 Bilal Qadir
+
+GitHub: @BilalQadir247
+
+Project Link: LearnHtml
